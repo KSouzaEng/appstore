@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: "cabecalho" "conteudo"  "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 
 }
 
@@ -18,9 +18,14 @@
 .conteudo {
     /* background: #ff8080; */
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
     /* background: #0099ff; */
     grid-area:rodape;
+    background: #fdfdfd;
+    font-size: .8rem;
+    padding: 1em 2rem;text-align: center;
+
 }
